@@ -88,7 +88,7 @@ public class TotalConsumptionAndProductionChart {
         dateAxis.setDateFormatOverride(new SimpleDateFormat("yyyy-MM-dd HH:mm"));
 
         // 保存图表到指定路径
-        ChartUtils.saveChartAsPNG(new File("data/output/TotalConsumptionAndProductionChart.png"), chart, 1200, 800);
+        ChartUtils.saveChartAsPNG(new File("data/output/TotalConsumptionAndProductionChart2.png"), chart, 12000, 800);
         System.out.println("Chart saved as data/output/TotalConsumptionAndProductionChart.png");
     }
 }
